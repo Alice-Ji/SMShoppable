@@ -17,16 +17,29 @@ const posts = [
   },
   {
     type: "video",
-    username: "rozy.gram",
+    username: "factormeals",
     media: [
-      "https://github.com/ruochongji/affordancePSIPSR/raw/refs/heads/main/rozy-video-1.mp4",
+      "https://github.com/Alice-Ji/SMShoppable/blob/main/ad-factor-long-overlay.mp4?raw=true",
     ],
-    caption: "Check out my latest moves! 🎥",
+    caption: "Sponsored Content",
     likes: 0,
     liked: false,
     comments: [],
     profilePic:
-      "https://github.com/ruochongji/affordancePSIPSR/blob/main/rozy-avatar.jpg?raw=true",
+      "https://github.com/Alice-Ji/SMShoppable/blob/main/avatar-factor.jpg?raw=true",
+  },
+  {
+    type: "video",
+    username: "factormeals",
+    media: [
+      "https://github.com/Alice-Ji/SMShoppable/blob/main/ad-factor-short-overlay.mp4?raw=true",
+    ],
+    caption: "Sponsored Content",
+    likes: 0,
+    liked: false,
+    comments: [],
+    profilePic:
+      "https://github.com/Alice-Ji/SMShoppable/blob/main/avatar-factor.jpg?raw=true",
   },
   {
     type: "carousel",
@@ -62,19 +75,6 @@ const posts = [
       "https://github.com/ruochongji/affordancePSIPSR/blob/main/rozy-avatar.jpg?raw=true",
   },
   {
-    type: "image",
-    username: "rozy.gram",
-    media: [
-      "https://github.com/ruochongji/affordancePSIPSR/blob/main/rozy-photo-1.jpg?raw=true",
-    ],
-    caption: "Just chilling with my best look! ✨",
-    likes: 0,
-    liked: false,
-    comments: [],
-    profilePic:
-      "https://github.com/ruochongji/affordancePSIPSR/blob/main/rozy-avatar.jpg?raw=true",
-  },
-  {
     type: "video",
     username: "Qelbree® (viloxazine)",
     media: [
@@ -89,20 +89,8 @@ const posts = [
   },
 ];
 
-//setupVideoAutoplay
+//setupVideoAutoplay: w media control wo sound
 function setupVideoAutoplay() {
-  // make video play sound
-  let userHasInteracted = false; // Track if the user has scrolled
-
-  document.addEventListener("scroll", () => {
-    if (!userHasInteracted) {
-      document.querySelectorAll(".video-post").forEach((video) => {
-        video.muted = false; // 🔊 Unmute all videos once scrolling starts
-      });
-      userHasInteracted = true; // Prevent further changes
-    }
-  }); // make video play sound
-
   const videos = document.querySelectorAll(".video-post");
 
   const observer = new IntersectionObserver(
@@ -117,31 +105,33 @@ function setupVideoAutoplay() {
         }
       });
     },
-    { threshold: 0.5 }
+    { threshold: 0.9 } // ✅ Only autoplay when 90% visible
   );
 
   videos.forEach((video) => {
     observer.observe(video);
 
-    const playOverlay = video.parentElement.querySelector(".play-overlay"); // ✅ Finds the correct overlay for each video
-    playOverlay.classList.remove("hidden"); // ✅ Show play button on page load
+    const playOverlay = video.parentElement.querySelector(".play-overlay");
+    if (playOverlay) playOverlay.classList.remove("hidden"); // ✅ Show play button initially
 
     video.addEventListener("click", () => {
       if (video.paused) {
         video.play();
-        playOverlay.classList.add("hidden"); // ✅ Hide play button when playing
+        if (playOverlay) playOverlay.classList.add("hidden"); // ✅ Hide when playing
       } else {
         video.pause();
-        playOverlay.classList.remove("hidden"); // ✅ Show play button when paused
+        if (playOverlay) playOverlay.classList.remove("hidden"); // ✅ Show when paused
       }
     });
 
     video.addEventListener("play", () => {
-      setTimeout(() => playOverlay.classList.add("hidden"), 100); // ✅ Ensure it fades out after play starts
+      setTimeout(() => {
+        if (playOverlay) playOverlay.classList.add("hidden");
+      }, 100);
     });
 
     video.addEventListener("pause", () => {
-      playOverlay.classList.remove("hidden"); // ✅ Show play button when paused
+      if (playOverlay) playOverlay.classList.remove("hidden");
     });
   });
 }
@@ -178,6 +168,17 @@ function renderFeed() {
       <div class="play-overlay hidden"></div> <!-- ✅ This is the only play button now -->
   </div>
       `;
+      // ✅ Add "Shop Now" button only for the factormeals short video post
+      if (
+        post.username === "factormeals" &&
+        post.media[0].includes("ad-factor-short-overlay.mp4")
+      ) {
+        mediaContent += `
+        <button class="shop-now-btn">
+        Shop Now!
+        </button>
+    `;
+      }
     } else if (post.type === "carousel") {
       mediaContent = `
         <div class="carousel-container">

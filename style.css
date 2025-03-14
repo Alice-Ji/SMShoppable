@@ -39,14 +39,23 @@ body {
 }
 
 /* Fix for images and videos to ensure they align properly */
-.post img,
-.post video {
+.post img {
   width: 100%;
   max-height: 500px;
   border-radius: 5px;
   object-fit: cover;
-  display: block; /* Prevents extra spacing issues */
-  margin: 0 auto; /* Ensures media is centered */
+  display: block;
+  margin: 0 auto;
+}
+
+.post video {
+  width: 100%;
+  height: auto;
+  max-height: none; /* ✅ Removes the 500px height limit */
+  object-fit: contain; /* ✅ Ensures the entire video fits without cropping */
+  display: block;
+  margin: 0 auto;
+  background: black; /* ✅ Prevents weird white bars */
 }
 
 /* Center text elements properly */
@@ -264,4 +273,24 @@ img {
 .hidden {
   opacity: 0; /* ✅ Fade out instead of disappearing abruptly */
   visibility: hidden;
+}
+
+.shop-now-btn {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  background: #efefef; /* Light gray like Instagram buttons */
+  color: #262626; /* Instagram text color */
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  border: 1px solid #dbdbdb;
+  border-radius: 8px;
+  cursor: pointer; /* ✅ Makes it clear that it's not clickable */
+  box-shadow: none;
+}
+
+.shop-now-btn:hover {
+  background: #e0e0e0; /* Slight hover effect */
 }
