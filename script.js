@@ -89,8 +89,19 @@ const posts = [
   },
 ];
 
-//setupVideoAutoplay: w media control wo sound
+//setupVideoAutoplay
 function setupVideoAutoplay() {
+  // make video play sound
+  let userHasInteracted = false; // Track if the user has scrolled
+
+  document.addEventListener("scroll", () => {
+    if (!userHasInteracted) {
+      document.querySelectorAll(".video-post").forEach((video) => {
+        video.muted = false; // 🔊 Unmute all videos once scrolling starts
+      });
+      userHasInteracted = true; // Prevent further changes
+    }
+  }); // make video play sound
   const videos = document.querySelectorAll(".video-post");
 
   const observer = new IntersectionObserver(
