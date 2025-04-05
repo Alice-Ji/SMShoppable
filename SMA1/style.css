@@ -280,8 +280,8 @@ img {
   width: 100%;
   padding: 12px;
   margin: 8px 0;
-  background: #efefef; /* Light gray like Instagram buttons */
-  color: #262626; /* Instagram text color */
+  background: #405de6; /* Light gray like Instagram buttons */
+  color: #ffffff; /* Instagram text color */
   font-size: 14px;
   font-weight: bold;
   text-align: center;
@@ -292,5 +292,5 @@ img {
 }
 
 .shop-now-btn:hover {
-  background: #e0e0e0; /* Slight hover effect */
+  background: #22317c; /* Slight hover effect */
 }

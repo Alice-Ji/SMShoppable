@@ -250,13 +250,13 @@ function renderFeed() {
       <div class="play-overlay hidden"></div> <!-- ✅ This is the only play button now -->
   </div>
       `;
-      // ✅ Add "Shop Now" button
+      // ✅ Add "Shop Now" button + record clicks
       if (
         post.username === "factormeals" &&
         post.media[0].includes("ad-factor-SM")
       ) {
         mediaContent += `
-        <button class="shop-now-btn">
+        <button class="shop-now-btn" onclick="window.trackShopNowClick('${post.username}')">
         Shop Now!
         </button>
     `;
@@ -456,4 +456,13 @@ window.sendCommentsToQualtrics = function () {
 window.toggleComment = function (index) {
   let commentSection = document.getElementById(`comment-section-${index}`);
   commentSection.classList.toggle("hidden"); // Show/hide comment section
+};
+
+window.trackShopNowClick = function (username) {
+  const message = `Shop Now clicked for: ${username}`;
+  console.log("🛒", message);
+
+  // Send it to Qualtrics
+  const qualtricsURL = "https://illinois.qualtrics.com";
+  window.parent.postMessage({ shopNowClick: message }, qualtricsURL);
 };
