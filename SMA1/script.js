@@ -357,17 +357,6 @@ function renderFeed() {
       <div class="play-overlay hidden"></div> <!-- ✅ This is the only play button now -->
   </div>
       `;
-      // ✅ Add "Shop Now" button + record clicks
-      if (
-        post.username === "factormeals" &&
-        post.media[0].includes("ad-factor-SM")
-      ) {
-        mediaContent += `
-        <button class="shop-now-btn" onclick="window.trackShopNowClick('${post.username}')">
-        Shop Now!
-        </button>
-    `;
-      }
     } else if (post.type === "carousel") {
       mediaContent = `
         <div class="carousel-container">
@@ -376,6 +365,17 @@ function renderFeed() {
             <button class="carousel-btn right" onclick="nextImage(${index})">&gt;</button>
             <div class="carousel-indicator" id="indicator-${index}">1 / ${post.media.length}</div>
         </div>
+      `;
+    }
+    // ✅ Add "Shop Now" button + record clicks
+    if (
+      post.username === "factormeals" &&
+      post.media[0].includes("ad-factor-SM")
+    ) {
+      mediaContent += `
+          <button class="shop-now-btn" onclick="window.trackShopNowClick('${post.username}')">
+          Shop Now!
+          </button>
       `;
     }
 
