@@ -1,6 +1,6 @@
 console.log("🚀 script.js has loaded successfully!");
 
-// Sample post data
+// Post data
 const posts = [
   // shoppable factor video
   {
@@ -157,6 +157,113 @@ const posts = [
     comments: [],
     profilePic:
       "https://github.com/Alice-Ji/affordancePSIPSR2/blob/main/imma-avatar.jpg?raw=true",
+  },
+  {
+    type: "image",
+    username: "imma.gram",
+    media: [
+      "https://github.com/Alice-Ji/affordancePSIPSR2/blob/main/imma-image-5.jpg?raw=true",
+    ],
+    caption:
+      "I was recently in Dubai 🇦🇪🧠.\n\nWorldgovsummit, a summit inviting heads of state from 150 countries. Entrepreneurs, prime ministers and princes of various countries, inventors, etc. It was a really valuable experience and I am grateful for all the wonderful encounters ᘎ🧠.\n\nThe trip made me want to visit more and more countries.\nThe world is still so big🌏",
+    likes: 0,
+    liked: false,
+    comments: [],
+    profilePic:
+      "https://github.com/Alice-Ji/affordancePSIPSR2/blob/main/imma-avatar.jpg?raw=true",
+  },
+  {
+    type: "image",
+    username: "imma.gram",
+    media: [
+      "https://github.com/Alice-Ji/affordancePSIPSR2/blob/main/imma-image-6.jpg?raw=true",
+    ],
+    caption: "Definitely NOT a summit",
+    likes: 0,
+    liked: false,
+    comments: [],
+    profilePic:
+      "https://github.com/Alice-Ji/affordancePSIPSR2/blob/main/imma-avatar.jpg?raw=true",
+  },
+  {
+    type: "video",
+    username: "imma.gram",
+    media: [
+      "https://github.com/Alice-Ji/affordancePSIPSR2/raw/refs/heads/main/imma-video-11.mp4",
+    ],
+    caption:
+      "Kyoto trip ⛩️⚡️🌸\nBut Ppl jumped off of here ? 😱⚡️🤨\nLearning about Japanese history is always interesting but sometimes… bizarre facts come out.. I started reading into one of the most famous tourist spots the kiyomizu temple when I visited Kyoto and yeah.. people jumped off here (and mostly survived!) to make a wish 😱 I’m glad I’m alive now when my wish is in a form of the Amazon wish list… 🤭",
+    likes: 0,
+    liked: false,
+    comments: [],
+    profilePic:
+      "https://github.com/Alice-Ji/affordancePSIPSR2/blob/main/imma-avatar.jpg?raw=true",
+  },
+  {
+    type: "carousel",
+    username: "rozy.gram",
+    media: [
+      "https://github.com/ruochongji/affordancePSIPSR/blob/main/rozy-carouse-14.1.jpg?raw=true",
+      "https://github.com/ruochongji/affordancePSIPSR/blob/main/rozy-carouse-14.2.jpg?raw=true",
+    ],
+    caption: "Thrilled to be on my next trip already 😆🧡",
+    likes: 0,
+    liked: false,
+    comments: [],
+    currentIndex: 0, // Track which image is showing in the carousel
+    profilePic:
+      "https://github.com/ruochongji/affordancePSIPSR/blob/main/rozy-avatar.jpg?raw=true",
+  },
+  {
+    type: "carousel",
+    username: "rozy.gram",
+    media: [
+      "https://github.com/ruochongji/affordancePSIPSR/blob/main/rozy-carouse-15.1.jpg?raw=true",
+      "https://github.com/ruochongji/affordancePSIPSR/blob/main/rozy-carouse-15.2.jpg?raw=true",
+      "https://github.com/ruochongji/affordancePSIPSR/blob/main/rozy-carouse-15.3.jpg?raw=true",
+    ],
+    caption: "Deep in the forest today to find treasure💎",
+    likes: 0,
+    liked: false,
+    comments: [],
+    currentIndex: 0, // Track which image is showing in the carousel
+    profilePic:
+      "https://github.com/ruochongji/affordancePSIPSR/blob/main/rozy-avatar.jpg?raw=true",
+  },
+  {
+    type: "carousel",
+    username: "rozy.gram",
+    media: [
+      "https://github.com/ruochongji/affordancePSIPSR/blob/main/rozy-carouse-16.1.jpg?raw=true",
+      "https://github.com/ruochongji/affordancePSIPSR/blob/main/rozy-carouse-16.2.jpg?raw=true",
+      "https://github.com/ruochongji/affordancePSIPSR/blob/main/rozy-carouse-16.3.jpg?raw=true",
+      "https://github.com/ruochongji/affordancePSIPSR/blob/main/rozy-carouse-16.4.jpg?raw=true",
+    ],
+    caption: "My very first yacht experience⛵🥂🏝",
+    likes: 0,
+    liked: false,
+    comments: [],
+    currentIndex: 0, // Track which image is showing in the carousel
+    profilePic:
+      "https://github.com/ruochongji/affordancePSIPSR/blob/main/rozy-avatar.jpg?raw=true",
+  },
+  {
+    type: "carousel",
+    username: "rozy.gram",
+    media: [
+      "https://github.com/ruochongji/affordancePSIPSR/blob/main/rozy-carouse-17.1.jpg?raw=true",
+      "https://github.com/ruochongji/affordancePSIPSR/blob/main/rozy-carouse-17.2.jpg?raw=true",
+      "https://github.com/ruochongji/affordancePSIPSR/blob/main/rozy-carouse-17.3.jpg?raw=true",
+      "https://github.com/ruochongji/affordancePSIPSR/blob/main/rozy-carouse-17.4.jpg?raw=true",
+    ],
+    caption:
+      "First time snorkeling this summer🤿\nA lot of fish here!!🐠🐟🐡🐬",
+    likes: 0,
+    liked: false,
+    comments: [],
+    currentIndex: 0, // Track which image is showing in the carousel
+    profilePic:
+      "https://github.com/ruochongji/affordancePSIPSR/blob/main/rozy-avatar.jpg?raw=true",
   },
 ];
 
