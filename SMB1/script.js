@@ -7,75 +7,75 @@ const posts = [
     type: "video",
     username: "factormeals",
     media: [
-      "https://github.com/Alice-Ji/SMShoppable/blob/main/ad-factor-SM-video1.mp4?raw=true",
+      "https://raw.githubusercontent.com/Alice-Ji/SMShoppable/main/ad-factor-SM-video1.mp4",
     ],
     caption: "Sponsored Content",
     likes: 0,
     liked: false,
     comments: [],
     profilePic:
-      "https://github.com/Alice-Ji/SMShoppable/blob/main/avatar-factor.jpg?raw=true",
+      "https://raw.githubusercontent.com/Alice-Ji/SMShoppable/main/avatar-factor.jpg",
   },
   {
     type: "video",
     username: "factormeals",
     media: [
-      "https://github.com/Alice-Ji/SMShoppable/blob/main/ad-factor-SM-video1.mp4?raw=true",
+      "https://raw.githubusercontent.com/Alice-Ji/SMShoppable/main/ad-factor-SM-video1.mp4",
     ],
     caption: "Sponsored Content",
     likes: 0,
     liked: false,
     comments: [],
     profilePic:
-      "https://github.com/Alice-Ji/SMShoppable/blob/main/avatar-factor.jpg?raw=true",
+      "https://raw.githubusercontent.com/Alice-Ji/SMShoppable/main/avatar-factor.jpg",
   },
   // shoppable ultima static
   {
     type: "image",
     username: "ultima",
     media: [
-      "https://github.com/Alice-Ji/SMShoppable/blob/main/ad-ultima-SM-static1.jpg?raw=true",
+      "https://raw.githubusercontent.com/Alice-Ji/SMShoppable/main/ad-ultima-SM-static1.jpg",
     ],
     caption: "Sponsored Content",
     likes: 0,
     liked: false,
     comments: [],
     profilePic:
-      "https://github.com/Alice-Ji/SMShoppable/blob/main/avatar-ultima.jpg?raw=true",
+      "https://raw.githubusercontent.com/Alice-Ji/SMShoppable/main/avatar-ultima.jpg",
   },
   {
     type: "image",
     username: "ultima",
     media: [
-      "https://github.com/Alice-Ji/SMShoppable/blob/main/ad-ultima-SM-static1.jpg?raw=true",
+      "https://raw.githubusercontent.com/Alice-Ji/SMShoppable/main/ad-ultima-SM-static1.jpg",
     ],
     caption: "Sponsored Content",
     likes: 0,
     liked: false,
     comments: [],
     profilePic:
-      "https://github.com/Alice-Ji/SMShoppable/blob/main/avatar-ultima.jpg?raw=true",
+      "https://raw.githubusercontent.com/Alice-Ji/SMShoppable/main/avatar-ultima.jpg",
   },
   // filler posts
   {
     type: "image",
     username: "rozy.gram",
     media: [
-      "https://github.com/ruochongji/affordancePSIPSR/blob/main/rozy-photo-1.jpg?raw=true",
+      "https://raw.githubusercontent.com/ruochongji/affordancePSIPSR/main/rozy-photo-1.jpg",
     ],
     caption: "Just chilling with my best look! ✨",
     likes: 0,
     liked: false,
     comments: [],
     profilePic:
-      "https://github.com/ruochongji/affordancePSIPSR/blob/main/rozy-avatar.jpg?raw=true",
+      "https://raw.githubusercontent.com/ruochongji/affordancePSIPSR/main/rozy-avatar.jpg",
   },
   {
     type: "carousel",
     username: "rozy.gram",
     media: [
-      "https://github.com/ruochongji/affordancePSIPSR/blob/main/rozy-carouse-1.1.jpg?raw=true",
-      "https://github.com/ruochongji/affordancePSIPSR/blob/main/rozy-carouse-1.2.jpg?raw=true",
+      "https://raw.githubusercontent.com/ruochongji/affordancePSIPSR/main/rozy-carouse-1.1.jpg",
+      "https://raw.githubusercontent.com/ruochongji/affordancePSIPSR/main/rozy-carouse-1.2.jpg",
     ],
     caption: "Swipe to see the full look! 🔄",
     likes: 0,
@@ -83,17 +83,17 @@ const posts = [
     comments: [],
     currentIndex: 0, // Track which image is showing in the carousel
     profilePic:
-      "https://github.com/ruochongji/affordancePSIPSR/blob/main/rozy-avatar.jpg?raw=true",
+      "https://raw.githubusercontent.com/ruochongji/affordancePSIPSR/main/rozy-avatar.jpg",
   },
   {
     type: "carousel",
     username: "rozy.gram",
     media: [
-      "https://github.com/ruochongji/affordancePSIPSR/blob/main/rozy-carouse-2.2.jpg?raw=true",
-      "https://github.com/ruochongji/affordancePSIPSR/blob/main/rozy-carouse-2.1.jpg?raw=true",
-      "https://github.com/ruochongji/affordancePSIPSR/blob/main/rozy-carouse-2.3.jpg?raw=true",
-      "https://github.com/ruochongji/affordancePSIPSR/blob/main/rozy-carouse-2.4.jpg?raw=true",
-      "https://github.com/ruochongji/affordancePSIPSR/blob/main/rozy-carouse-2.5.jpg?raw=true",
+      "https://raw.githubusercontent.com/ruochongji/affordancePSIPSR/main/rozy-carouse-2.2.jpg",
+      "https://raw.githubusercontent.com/ruochongji/affordancePSIPSR/main/rozy-carouse-2.1.jpg",
+      "https://raw.githubusercontent.com/ruochongji/affordancePSIPSR/main/rozy-carouse-2.3.jpg",
+      "https://raw.githubusercontent.com/ruochongji/affordancePSIPSR/main/rozy-carouse-2.4.jpg",
+      "https://raw.githubusercontent.com/ruochongji/affordancePSIPSR/main/rozy-carouse-2.5.jpg",
     ],
     caption: "Hanging out at this cool museum! ˙✧˖°📷 ༘ ⋆｡°",
     likes: 0,
@@ -101,28 +101,28 @@ const posts = [
     comments: [],
     currentIndex: 0, // Track which image is showing in the carousel
     profilePic:
-      "https://github.com/ruochongji/affordancePSIPSR/blob/main/rozy-avatar.jpg?raw=true",
+      "https://raw.githubusercontent.com/ruochongji/affordancePSIPSR/main/rozy-avatar.jpg",
   },
   {
     type: "video",
     username: "Qelbree® (viloxazine)",
     media: [
-      "https://github.com/Alice-Ji/affordancePSIPSR/blob/main/qelbree-adhd-fullscreenISI.mp4?raw=true",
+      "https://raw.githubusercontent.com/Alice-Ji/affordancePSIPSR/main/qelbree-adhd-fullscreenISI.mp4",
     ],
     caption: "Sponsored Content",
     likes: 0,
     liked: false,
     comments: [],
     profilePic:
-      "https://github.com/ruochongji/affordancePSIPSR/blob/main/qelbree-avatar.jpg?raw=true",
+      "https://raw.githubusercontent.com/ruochongji/affordancePSIPSR/main/qelbree-avatar.jpg",
   },
   {
     type: "carousel",
     username: "imma.gram",
     media: [
-      "https://github.com/Alice-Ji/affordancePSIPSR2/blob/main/imma-carouse-20.1.jpg?raw=true",
-      "https://github.com/Alice-Ji/affordancePSIPSR2/blob/main/imma-carouse-20.2.jpg?raw=true",
-      "https://github.com/Alice-Ji/affordancePSIPSR2/blob/main/imma-carouse-20.3.jpg?raw=true",
+      "https://raw.githubusercontent.com/Alice-Ji/affordancePSIPSR2/main/imma-carouse-20.1.jpg",
+      "https://raw.githubusercontent.com/Alice-Ji/affordancePSIPSR2/main/imma-carouse-20.2.jpg",
+      "https://raw.githubusercontent.com/Alice-Ji/affordancePSIPSR2/main/imma-carouse-20.3.jpg",
     ],
     caption: "🧠❤️🎃",
     likes: 0,
@@ -130,39 +130,39 @@ const posts = [
     comments: [],
     currentIndex: 0, // Track which image is showing in the carousel
     profilePic:
-      "https://github.com/Alice-Ji/affordancePSIPSR2/blob/main/imma-avatar.jpg?raw=true",
+      "https://raw.githubusercontent.com/Alice-Ji/affordancePSIPSR2/main/imma-avatar.jpg",
   },
   {
     type: "image",
     username: "imma.gram",
     media: [
-      "https://github.com/Alice-Ji/affordancePSIPSR2/blob/main/imma-image-20.jpg?raw=true",
+      "https://raw.githubusercontent.com/Alice-Ji/affordancePSIPSR2/main/imma-image-20.jpg",
     ],
     caption: "Quality time w. 🐶",
     likes: 0,
     liked: false,
     comments: [],
     profilePic:
-      "https://github.com/Alice-Ji/affordancePSIPSR2/blob/main/imma-avatar.jpg?raw=true",
+      "https://raw.githubusercontent.com/Alice-Ji/affordancePSIPSR2/main/imma-avatar.jpg",
   },
   {
     type: "video",
     username: "imma.gram",
     media: [
-      "https://github.com/Alice-Ji/affordancePSIPSR2/raw/refs/heads/main/imma-video-1.mp4",
+      "https://raw.githubusercontent.com/Alice-Ji/affordancePSIPSR2/main/imma-video-1.mp4",
     ],
     caption: "Alright, here’s a question.\nGuess what is being used?",
     likes: 0,
     liked: false,
     comments: [],
     profilePic:
-      "https://github.com/Alice-Ji/affordancePSIPSR2/blob/main/imma-avatar.jpg?raw=true",
+      "https://raw.githubusercontent.com/Alice-Ji/affordancePSIPSR2/main/imma-avatar.jpg",
   },
   {
     type: "image",
     username: "imma.gram",
     media: [
-      "https://github.com/Alice-Ji/affordancePSIPSR2/blob/main/imma-image-5.jpg?raw=true",
+      "https://raw.githubusercontent.com/Alice-Ji/affordancePSIPSR2/main/imma-image-5.jpg",
     ],
     caption:
       "I was recently in Dubai 🇦🇪🧠.\n\nWorldgovsummit, a summit inviting heads of state from 150 countries. Entrepreneurs, prime ministers and princes of various countries, inventors, etc. It was a really valuable experience and I am grateful for all the wonderful encounters ᘎ🧠.\n\nThe trip made me want to visit more and more countries.\nThe world is still so big🌏",
@@ -170,26 +170,26 @@ const posts = [
     liked: false,
     comments: [],
     profilePic:
-      "https://github.com/Alice-Ji/affordancePSIPSR2/blob/main/imma-avatar.jpg?raw=true",
+      "https://raw.githubusercontent.com/Alice-Ji/affordancePSIPSR2/main/imma-avatar.jpg",
   },
   {
     type: "image",
     username: "imma.gram",
     media: [
-      "https://github.com/Alice-Ji/affordancePSIPSR2/blob/main/imma-image-6.jpg?raw=true",
+      "https://raw.githubusercontent.com/Alice-Ji/affordancePSIPSR2/main/imma-image-6.jpg",
     ],
     caption: "Definitely NOT a summit",
     likes: 0,
     liked: false,
     comments: [],
     profilePic:
-      "https://github.com/Alice-Ji/affordancePSIPSR2/blob/main/imma-avatar.jpg?raw=true",
+      "https://raw.githubusercontent.com/Alice-Ji/affordancePSIPSR2/main/imma-avatar.jpg",
   },
   {
     type: "video",
     username: "imma.gram",
     media: [
-      "https://github.com/Alice-Ji/affordancePSIPSR2/raw/refs/heads/main/imma-video-11.mp4",
+      "https://raw.githubusercontent.com/Alice-Ji/affordancePSIPSR2/main/imma-video-11.mp4",
     ],
     caption:
       "Kyoto trip ⛩️⚡️🌸\nBut Ppl jumped off of here ? 😱⚡️🤨\nLearning about Japanese history is always interesting but sometimes… bizarre facts come out.. I started reading into one of the most famous tourist spots the kiyomizu temple when I visited Kyoto and yeah.. people jumped off here (and mostly survived!) to make a wish 😱 I’m glad I’m alive now when my wish is in a form of the Amazon wish list… 🤭",
@@ -197,14 +197,14 @@ const posts = [
     liked: false,
     comments: [],
     profilePic:
-      "https://github.com/Alice-Ji/affordancePSIPSR2/blob/main/imma-avatar.jpg?raw=true",
+      "https://raw.githubusercontent.com/Alice-Ji/affordancePSIPSR2/main/imma-avatar.jpg",
   },
   {
     type: "carousel",
     username: "rozy.gram",
     media: [
-      "https://github.com/ruochongji/affordancePSIPSR/blob/main/rozy-carouse-14.1.jpg?raw=true",
-      "https://github.com/ruochongji/affordancePSIPSR/blob/main/rozy-carouse-14.2.jpg?raw=true",
+      "https://raw.githubusercontent.com/ruochongji/affordancePSIPSR/main/rozy-carouse-14.1.jpg",
+      "https://raw.githubusercontent.com/ruochongji/affordancePSIPSR/main/rozy-carouse-14.2.jpg",
     ],
     caption: "Thrilled to be on my next trip already 😆🧡",
     likes: 0,
@@ -212,15 +212,15 @@ const posts = [
     comments: [],
     currentIndex: 0, // Track which image is showing in the carousel
     profilePic:
-      "https://github.com/ruochongji/affordancePSIPSR/blob/main/rozy-avatar.jpg?raw=true",
+      "https://raw.githubusercontent.com/ruochongji/affordancePSIPSR/main/rozy-avatar.jpg",
   },
   {
     type: "carousel",
     username: "rozy.gram",
     media: [
-      "https://github.com/ruochongji/affordancePSIPSR/blob/main/rozy-carouse-15.1.jpg?raw=true",
-      "https://github.com/ruochongji/affordancePSIPSR/blob/main/rozy-carouse-15.2.jpg?raw=true",
-      "https://github.com/ruochongji/affordancePSIPSR/blob/main/rozy-carouse-15.3.jpg?raw=true",
+      "https://raw.githubusercontent.com/ruochongji/affordancePSIPSR/main/rozy-carouse-15.1.jpg",
+      "https://raw.githubusercontent.com/ruochongji/affordancePSIPSR/main/rozy-carouse-15.2.jpg",
+      "https://raw.githubusercontent.com/ruochongji/affordancePSIPSR/main/rozy-carouse-15.3.jpg",
     ],
     caption: "Deep in the forest today to find treasure💎",
     likes: 0,
@@ -228,16 +228,16 @@ const posts = [
     comments: [],
     currentIndex: 0, // Track which image is showing in the carousel
     profilePic:
-      "https://github.com/ruochongji/affordancePSIPSR/blob/main/rozy-avatar.jpg?raw=true",
+      "https://raw.githubusercontent.com/ruochongji/affordancePSIPSR/main/rozy-avatar.jpg",
   },
   {
     type: "carousel",
     username: "rozy.gram",
     media: [
-      "https://github.com/ruochongji/affordancePSIPSR/blob/main/rozy-carouse-16.1.jpg?raw=true",
-      "https://github.com/ruochongji/affordancePSIPSR/blob/main/rozy-carouse-16.2.jpg?raw=true",
-      "https://github.com/ruochongji/affordancePSIPSR/blob/main/rozy-carouse-16.3.jpg?raw=true",
-      "https://github.com/ruochongji/affordancePSIPSR/blob/main/rozy-carouse-16.4.jpg?raw=true",
+      "https://raw.githubusercontent.com/ruochongji/affordancePSIPSR/main/rozy-carouse-16.1.jpg",
+      "https://raw.githubusercontent.com/ruochongji/affordancePSIPSR/main/rozy-carouse-16.2.jpg",
+      "https://raw.githubusercontent.com/ruochongji/affordancePSIPSR/main/rozy-carouse-16.3.jpg",
+      "https://raw.githubusercontent.com/ruochongji/affordancePSIPSR/main/rozy-carouse-16.4.jpg",
     ],
     caption: "My very first yacht experience⛵🥂🏝",
     likes: 0,
@@ -245,16 +245,16 @@ const posts = [
     comments: [],
     currentIndex: 0, // Track which image is showing in the carousel
     profilePic:
-      "https://github.com/ruochongji/affordancePSIPSR/blob/main/rozy-avatar.jpg?raw=true",
+      "https://raw.githubusercontent.com/ruochongji/affordancePSIPSR/main/rozy-avatar.jpg",
   },
   {
     type: "carousel",
     username: "rozy.gram",
     media: [
-      "https://github.com/ruochongji/affordancePSIPSR/blob/main/rozy-carouse-17.1.jpg?raw=true",
-      "https://github.com/ruochongji/affordancePSIPSR/blob/main/rozy-carouse-17.2.jpg?raw=true",
-      "https://github.com/ruochongji/affordancePSIPSR/blob/main/rozy-carouse-17.3.jpg?raw=true",
-      "https://github.com/ruochongji/affordancePSIPSR/blob/main/rozy-carouse-17.4.jpg?raw=true",
+      "https://raw.githubusercontent.com/ruochongji/affordancePSIPSR/main/rozy-carouse-17.1.jpg",
+      "https://raw.githubusercontent.com/ruochongji/affordancePSIPSR/main/rozy-carouse-17.2.jpg",
+      "https://raw.githubusercontent.com/ruochongji/affordancePSIPSR/main/rozy-carouse-17.3.jpg",
+      "https://raw.githubusercontent.com/ruochongji/affordancePSIPSR/main/rozy-carouse-17.4.jpg",
     ],
     caption:
       "First time snorkeling this summer🤿\nA lot of fish here!!🐠🐟🐡🐬",
@@ -263,7 +263,7 @@ const posts = [
     comments: [],
     currentIndex: 0, // Track which image is showing in the carousel
     profilePic:
-      "https://github.com/ruochongji/affordancePSIPSR/blob/main/rozy-avatar.jpg?raw=true",
+      "https://raw.githubusercontent.com/ruochongji/affordancePSIPSR/main/rozy-avatar.jpg",
   },
 ];
 
@@ -385,15 +385,15 @@ function renderFeed() {
       ${mediaContent}
       <p>${post.caption}</p>
       <div class="post-actions">
-          <img id="like-btn-${index}" src="https://github.com/ruochongji/affordancePSIPSR/blob/main/ins-like1.png?raw=true" 
+          <img id="like-btn-${index}" src="https://raw.githubusercontent.com/ruochongji/affordancePSIPSR/main/ins-like1.png" 
                alt="Like" class="action-icon" onclick="window.likePost(${index})">
-          <img id="comment-btn-${index}" src="https://github.com/ruochongji/affordancePSIPSR/blob/main/ins-comment.png?raw=true"
+          <img id="comment-btn-${index}" src="https://raw.githubusercontent.com/ruochongji/affordancePSIPSR/main/ins-comment.png"
                alt="Comment" class="action-icon" onclick="window.toggleComment(${index})">
       </div>
       <div id="comment-section-${index}" class="comment-section hidden">
           <div class="comment-input-container">
               <input type="text" id="comment-input-${index}" placeholder="Add a comment...">
-              <img id="send-comment-${index}" src="https://github.com/ruochongji/affordancePSIPSR/blob/main/ins-sendcomment.png?raw=true" 
+              <img id="send-comment-${index}" src="https://raw.githubusercontent.com/ruochongji/affordancePSIPSR/main/ins-sendcomment.png" 
                    alt="Send" class="send-icon" onclick="window.addComment(${index})">
           </div>
           <ul id="comments-${index}"></ul>
@@ -472,12 +472,12 @@ window.likePost = function (index) {
     posts[index].likes++;
     posts[index].liked = true;
     likeBtn.src =
-      "https://github.com/ruochongji/affordancePSIPSR/blob/main/ins-like2.png?raw=true";
+      "https://raw.githubusercontent.com/ruochongji/affordancePSIPSR/main/ins-like2.png";
   } else {
     posts[index].likes--;
     posts[index].liked = false;
     likeBtn.src =
-      "https://github.com/ruochongji/affordancePSIPSR/blob/main/ins-like1.png?raw=true";
+      "https://raw.githubusercontent.com/ruochongji/affordancePSIPSR/main/ins-like1.png";
   }
 };
 
